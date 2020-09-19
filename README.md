@@ -72,25 +72,63 @@ PL Lecture 2 Notes:
 3. (++, --, +=, -=, *=, /=, %=)
 4. comparison operators (==, !=, >, <, >=, <=)
 5. printf with floating numbers (M_PI) 
-6. math functions - pow, round, ceil, floor
+
+6. math functions - pow, round, ceil, floor, sqrt
 7. bit manipulation, or, xor, and, >>, <<, |=, &=, ^=
 8. 2^n example 1 << n
 9. set 1 for i-th bit of number: A |= (1<<i);
 10. invert i-th bit of number: A ^= (1<<i);
 11. identify i-th bit of number: int b = (A>>i)&1;
+
 12. if else conditions. If —> return 0, absolute value of number, minimum of three numbers, triangle problem (&&, and)
 13. even odd example
 14. find grade from points example
+
 15. loop operators: for, while, do while
 16. even numbers / odd numbers till 100
 17. infinity loop
 18. all numbers which divisible by 3 in range (a, b)
 19. count number of dividers of N
 20. prime number
+
 21. fibonacci sequence (0, 1, 1, 2, 3, 5, …)
 22. factorial
 23. infinite loop (for (;;)) break, continue
 24. while loop statement (power of 2, count of digits)
 25. sum of numbers (cin reads numbers in the loop) freopen
 26. string: number of words 
+
+
+PL Lecture notes 3
+1. From previous lectures
+    Loop samples
+        1. Sum of digits (for, while)
+        2. list of all squares < N (while)
+        3. do while & while
+            1. factorial using — while
+            2. sum all numbers until user enter 0 — do while
+        4. string: number of words (freopen)
+2. What is array?
+    1. value
+    2. index
+3. Init samples
+    1. Array declaration — int a[10]; bool b[10]; 
+    2. Declaration and init — int a[3] = {1, 2, 3}; int a[] = {1, 2, 3};
+4. Accessing the values of an array: a[0] = 3; 
+5. Other operations with arrays: a[0] = b; c = a[n+2]; a[a[2]] = a[1] + 3;
+
+6. 1D array samples
+    1. Read N number and show them
+    2. Sum of all elements int array
+    3. Create array with size N — int a[N]; Read N elements
+    4. Show even numbers from given array
+    5. Show numbers in odd position from given array
+    6. Count number of positive numbers in array
+    7. Find Max/Min from given array
+    8. Linear search of K from given array
+    9. Find number K and remove it, shift left all rest elements add 0 at the end
+    10. String samples
+        1. s.size(); s.length()
+        2. Show all digits from string
+        3. convert all letter to UPPER
 

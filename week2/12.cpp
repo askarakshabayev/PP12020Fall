@@ -7,6 +7,6 @@ int main() {
     cin >> a >> b;
 
     a |= (1 << b);
-    cout << a; 
+    cout << a;   
     return 0;
 }
