@@ -107,7 +107,7 @@ PL Lecture notes 3
         3. do while & while
             1. factorial using — while
             2. sum all numbers until user enter 0 — do while
-        4. string: number of words (freopen)
+        4. string: number of words
 2. What is array?
     1. value
     2. index
@@ -127,8 +127,60 @@ PL Lecture notes 3
     7. Find Max/Min from given array
     8. Linear search of K from given array
     9. Find number K and remove it, shift left all rest elements add 0 at the end
+    10. simple sorting numbers between 0-9 using array 
     10. String samples
         1. s.size(); s.length()
         2. Show all digits from string
         3. convert all letter to UPPER
 
+Nested loop
+    2.1. Multiplication table
+    2.2.  1 1 1 1
+          2 2 2 2
+          3 3 3 3
+
+    2.3   1
+          1 2 
+          1 2 3 
+          1 2 3 4
+    2.4 Sorting array using nested loop 
+    
+3. 2D array (matrix)
+    3.1 input, output
+    3.2 table of multiplication
+    3.3 max element in matrix
+    3.4   
+    1 0 0 0
+    2 1 0 0
+    2 2 1 0
+    2 2 2 1
+    3.5
+    0  0  0  0  0  0  0  0  0  0
+    0  1  2  3  4  5  6  7  8  9
+    0  2  4  6  8 10 12 14 16 18
+    0  3  6  9 12 15 18 21 24 27
+    3.6
+    0 0 0 1
+    0 0 1 2
+    0 1 2 2
+    1 2 2 2
+    3.7
+    Дано число n и квадратный массив int A[n][n]. Проверьте, является ли массив симметричным относительно главной диагонали. Программа должна выводить слово yes для симметричного массива и слово no для несимметричного. Пример
+        Вход                   Выход
+        3                     yes
+        0 1 2
+        1 2 3
+        2 3 4
+    3.8
+    Состязания-1. В метании молота состязается n спортcменов. Каждый из них сделал m бросков. Победителем считается тот спортсмен, у которого сумма результатов по всем броскам максимальна.
+Если перенумеровать спортсменов числами от 0 до n-1, а попытки каждого из них – от 0 до m-1, то на вход программа получает массив int A[n][m], состоящий из неотрицательных чисел. Программа должна определить максимальную сумму чисел в одной строке и вывести на экран эту сумму и номер строки, для которой достигается эта сумма. Если таких строк несколько, то выводится номер наименьшей из них. Пример для n=4 спортсменов и m=3 попыток:
+
+        Вход                   Выход
+        4 3                    19
+        5 6 7                  1
+        6 6 7
+        7 6 6
+        4 3 5
+
+
+ (freopen)
