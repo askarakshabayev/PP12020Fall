@@ -5,6 +5,9 @@
         "cmath": "cpp",
         "string": "cpp",
         "istream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "vector": "cpp",
+        "utility": "cpp",
+        "algorithm": "cpp"
     }
 }

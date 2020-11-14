@@ -224,7 +224,7 @@ PP1 Week9 notes:
 10. Chess problem
 
 PL Lecture 10 Notes:
-1. STL: algorithm, containers, iterators, functions 
+1. STL: algorithm, containers, iterators
 2. Vector (vector declaration) vector<int> a; vector<int> b(50, 1);
 3. size, push_back, pop_back
     3.1. Create vector, push elements and print
@@ -241,6 +241,7 @@ PL Lecture 11 Notes:
 1. map (first, second, iterate map)
 2. Count of unique words
 3. map<string, pair<string, string> > example (ID, name, surname)
+
 4. stack simple example, bracket problem
 5. queue simple example, problem from a to b using operations (x+1, x*2)
 6. sort - using additional function third param
