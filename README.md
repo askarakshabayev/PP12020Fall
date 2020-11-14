@@ -210,3 +210,37 @@ Nested loop
         1. insert
         2. math +
     13. stringstream
+
+PP1 Week9 notes:
+1. Understanding function (stack of functions)
+2. sum from 1..N
+3. Factorial
+4. X^N
+5. GCD(a, b)
+6. Sum of digits of the number
+7. Fib numbers 
+8. Fib with memory
+9. Hanoi tower
+10. Chess problem
+
+PL Lecture 10 Notes:
+1. STL: algorithm, containers, iterators, functions 
+2. Vector (vector declaration) vector<int> a; vector<int> b(50, 1);
+3. size, push_back, pop_back
+    3.1. Create vector, push elements and print
+    3.2. Example of pop from vector
+4. insert, erase, clear, sort, pair, vector of pairs
+5. Example of array of vector, vector of vector
+6. set (size, insert, erase, find -> count)
+7. begin(), end(), rbegin(), rend()
+8. iterators
+9. set<int> a(b.begin(), b.end()) 
+10. set<int> a(b, b + n)   
+
+PL Lecture 11 Notes:
+1. map (first, second, iterate map)
+2. Count of unique words
+3. map<string, pair<string, string> > example (ID, name, surname)
+4. stack simple example, bracket problem
+5. queue simple example, problem from a to b using operations (x+1, x*2)
+6. sort - using additional function third param
