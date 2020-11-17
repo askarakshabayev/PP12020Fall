@@ -8,6 +8,8 @@
         "iosfwd": "cpp",
         "vector": "cpp",
         "utility": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "set": "cpp",
+        "map": "cpp"
     }
 }

@@ -1,0 +1,5 @@
+4 3
+20BD01 Askar Akshabayev
+20BD02 Meir Adilzhanov
+20BD03 Beisenbek Baisakov
+20BD04 abc def
