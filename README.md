@@ -239,10 +239,64 @@ PL Lecture 10 Notes:
 10. set<int> a(b, b + n)   
 
 PL Lecture 11 Notes:
+0. sort(a.rbegin(), a.rend())
 1. map (first, second, iterate map)
 2. Count of unique words
 3. map<string, pair<string, string> > example (ID, name, surname)
 
 4. stack simple example, bracket problem
 5. queue simple example, problem from a to b using operations (x+1, x*2)
+5.1 given matrix, find minimum steps to all cells
 6. sort - using additional function third param
+
+7. multiset
+7.1 pair<multiset<int> :: iterator, multiset<int> :: iterator> r = ms.equal_range(1); 
+8. multimap
+8.1 pair<m_it, m_it> res = mm.equal_range(str);
+
+1. count_if(begin_pointer, last_pointer, function)
+bool isPrime(int n) {
+    for (int i = 2; i * i <= n; i++)
+        if (n % i == 0)
+            return false;
+    return true;
+}
+
+int main() {
+    int n, x;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cin >> x;
+        a.push_back(x);
+    }
+
+    int cnt = count_if(a.begin(), a.end(), isPrime);
+    cout << cnt;
+    return 0;
+}
+bool f(int k) {
+    if (k % 2 == 0)
+        return true;
+    return false;
+} 
+
+int main() {
+    int n; 
+    cin >> n;
+    int a[n];
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    int cnt = count_if(a, a + n, f);
+    cout << cnt;
+    return 0;
+}
+2. rotate(begin_pointer, middle_pointer, last_pointer)
+    // 1 2 3 4 5 6 7 8 9 10    
+    // rotate(a.begin() + 1, a.begin() + 3, a.end() - 2);
+    // 1 4 5 6 7 8 2 3 9 10 
+3. fill(begin_pointer, end_pointer, fill_parameter)
+4. unique(begin_pointer, last_pointer) - returns iterator to the end of resulting array
+{1, 1, 3, 3, 3, 10, 1, 3, 3, 7, 7, 8} -> {1 3 10 1 3 7 8 * * * * *}
+5. for_each(begin_pointer, end_pointer, function)
+6. generate(begin_pointer, end_pointer, function)
+7. next_permutation, prev_permutation
